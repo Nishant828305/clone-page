@@ -1,0 +1,112 @@
+*{
+    margin:5px;
+    padding:0px;
+   box-sizing: border-box;
+}
+.a-link-nav-icon{
+   margin-top: 15px;
+   margin-left: 47%;
+}
+.box{
+    align-items: center;
+    border: 0.1px solid rgb(211, 208, 208);
+    width: 50vh;
+    height: 55vh;
+    margin: 5px;
+    padding: 25px;
+    border-radius: 5px; 
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.big-container{
+    width: 50vh;
+    margin-left: 40%;
+
+}
+.body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.input{
+    margin-top: 4px;
+    margin-bottom: 4px;
+    width: 42vh;
+}
+.btn{
+    margin-top: 4px;
+    margin-bottom: 4px;
+    background-color:#ffc600c4;
+    width: 42vh;
+    border: none;
+    border-radius: 5px;
+    padding: 9px;
+}
+.email{
+    font-weight: 600;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+.sign-in{
+ font-size: 50px;
+ /* margin-top: 14px; */
+ margin-bottom: 14px;
+}
+.lower-text{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.need{
+    margin-top: 14px;
+    margin-bottom: 14px;
+}
+.work{
+    font-weight: 600;
+    
+}
+.a-divider a-divider-break{
+         margin: 5px;
+        text-align: center;
+        position: relative;
+        top: 2px;
+        padding-top: 1px;
+        margin-bottom: 14px;
+        line-height: 0;
+        line-break: 350px;
+}
+.amazon-account{
+    margin-left: 40%;
+    width: 50vh;
+    padding: 5px;
+    border-radius: 5px;
+    border: 0.1px solid rgb(211, 208, 208);
+    background-color: white;
+    box-shadow: 1px 1px 3px rgba(0,0,0,0.1);
+}
+.ul{
+    width: 50vh;
+    margin-top: 35px;
+    margin-bottom: 10px;
+    margin-left: 40%;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 95%;
+   
+}
+.last-Text{
+    margin: 5px;
+    margin-left: 43%; 
+    font-size: 95%; 
+    color: grey;
+
+}
+.hr{
+    margin-left: 20%;
+    margin-right: 20%;
+    box-shadow: 1px 2px 5px rgba(0,0,0,0.2);
+}
