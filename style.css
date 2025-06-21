@@ -4,9 +4,10 @@
     border-sizing: border-box;
 }
 .navbar{
-    height:60px;
-    background-color: black;
+    height:55px;
+    background-color:#0f1111;
     color: white;
+    font-size: smaller;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -52,7 +53,7 @@
 }
 .add1{
 margin-left: 15px;
-color:beige;
+color:rgb(143, 143, 143);
 font-size:14px;
 font-weight: 700px;
 
@@ -166,9 +167,10 @@ Orders{
 /* nav panel  */
 
 .panel{
-    height:50px;
-    background-color:#222f3d;
+    height:45px;
+    background-color:#232f3e;
     color: white;
+    font-size: smaller;
     display: flex;  
     justify-content: space-evenly;
     align-items: center;
@@ -278,15 +280,15 @@ img{
     align-items: center;
 }
 .BS{
-    background-color: rgb(248, 176, 42);
-    padding-right: 110px;
-    padding-left: 110px;
-    /* font-weight: 530; */
-    font-size: 1rem;
+    background-color:rgba(248, 197, 78, 0.784);
+    padding: 8px 105px;
+    font-size: small;
     border-radius: 4px;
-    border: 1px solid rgb(229, 151, 7);
+    border: none;
     margin-top: 5px;
     margin-bottom: 5px;
+    border-radius: 25px;
+
 }
 hr{
     margin-top: 5px;
@@ -347,7 +349,7 @@ ul a {
     color: white;
     height: 78px;
     font-size:0.7rem ;
-  text-align: center;   
+    text-align: center;   
     
  
 }
@@ -367,7 +369,8 @@ ul a {
 
 @media (max-width: 917px) {
     .navbar{
-      font-size:small;
+      font-size:x-small;
+
     }
     .logo{
         height: 25px;
@@ -397,7 +400,7 @@ ul a {
       font-size: small;
     }
     .nav-text{
-        font-size: small;
+        font-size: smaller;
     }
        
     }
